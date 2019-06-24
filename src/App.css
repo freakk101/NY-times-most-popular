@@ -1,33 +1,94 @@
-.App {
-  text-align: center;
+nav {
+  display: flex;
+  align-items: center;
+  background: #47E4C2;
+  justify-content: space-around;
+  color:white;
+}
+.hamburger > div{
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  margin: 3px 0;
+}
+.dots > div {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 3px 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.hamburger{
+  display: inline-block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h4 {
+  display: inline;
+}
+
+.article{ 
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.articleHeading{
+  font-size: 13px;
+  margin:  8px 0 !important;
+}
+
+.articleInfo{
   display: flex;
   flex-direction: column;
+  color: #9A9A9A;
+  font-size: 13px;
+}
+
+.byline{
+  overflow: hidden;
+white-space: nowrap;
+}
+
+.articleIcon > img{
+ 
+  min-height: 30px;
+  min-width: 30px;
+  border-radius: 100%;
+  margin: 0 6px;
+}
+
+.calendar {
+  display: flex;
+  justify-content: space-between;
+}
+.date{
+  display: flex;
+  align-items: center;
+}
+.arrow {
+  height: 70px;
+  width: 70px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.back {
+  font-size: 24px;
+    font-weight: 400;
+}
+.arrow > span {
+  font-weight: 300;
+    font-size: 36px;
+    color:#9A9A9A;
 }
 
-.App-link {
-  color: #61dafb;
+.articleImg{
+ max-width: 320px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.articleDetails{
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  align-items: center;
 }
