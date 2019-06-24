@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project will be best viewed in mobile screen sizes
 
 ## Available Scripts
 ### 1`cd NY-times-most-popular`
